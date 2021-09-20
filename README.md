@@ -1,2 +1,2 @@
 # React-practice-6-JSONPlaceholder
-じゃけえさんの口座6
+じゃけえさんの講座6

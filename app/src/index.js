@@ -1,10 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import App from "./App"
 
 ReactDOM.render(
   <React.StrictMode>
     <h1>React-Practice-6</h1>
     <h2>app edit</h2>
+    <App />
   </React.StrictMode>,
   document.getElementById("root")
 );

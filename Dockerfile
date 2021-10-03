@@ -6,6 +6,8 @@ RUN apt-get update && apt-get install -y locales \
     && echo "export LC_ALL=en_US.UTF-8" >> ~/.bashrc \
     && ln -sf /usr/share/zoneinfo/Asia/Tokyo /etc/localtime
 
+
+
 COPY ./app /app
 
 WORKDIR /app
@@ -16,8 +18,13 @@ ENV PORT 80
 
 CMD ["npm", "start" ] 
 
+WORKDIR /
+
+
+
 RUN apt-get install -y \
     wget \
     curl \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
+

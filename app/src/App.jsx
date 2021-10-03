@@ -23,6 +23,7 @@ export default function App() {
     <div>
       <button onClick={onClickUsers}>users</button> <br />
       <button onClick={onClickUser1}>id=1のuser</button>
+      <p>タスクを上げた後に更新　2021/10/03</p>
     </div>
   );
 }

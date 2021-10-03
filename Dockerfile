@@ -18,7 +18,6 @@ ENV PORT 80
 
 CMD ["npm", "start" ] 
 
-WORKDIR /
 
 
 

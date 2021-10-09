@@ -5,5 +5,5 @@ Resources:
       Properties:
         TaskDefinition: <TASK_DEFINITION>
         LoadBalancerInfo:
-          ContainerName: "ay-s-ReactPrc6-forALB-vpc16-container-codepipeline"
+          ContainerName: "ay-s-ReactPrc6-forALB-vpc16-container"
           ContainerPort: 80

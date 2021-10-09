@@ -18,9 +18,6 @@ ENV PORT 80
 
 CMD ["npm", "start" ] 
 
-
-
-
 RUN apt-get install -y \
     wget \
     curl \
